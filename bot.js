@@ -12,7 +12,7 @@ DiscordClient.on('ready', () => {
 
   // Update game message on launch
   DiscordClient.user
-    .setActivity(`my part in reducing harm!`, { type: 'PLAYING' })
+    .setActivity(`People trip Balls`, { type: 'WATCHING' })
     .then(presence => console.log(`Activity set: ${JSON.stringify(presence.game)}`))
     .catch(console.error);
 
